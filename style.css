@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #161D6F;
+    color: rgb(21, 16, 16)9F;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  #header-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #194278;
+  }
+  
+  nav {
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0B2F9F;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #98DED9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #0B2F9F;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  article img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  article p {
+    line-height: 1.6;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #0B2F9F;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0B2F9F;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #C7FFD8;
+    color: #161D6F;
+  }
+  
+
+  @media (max-width: 768px) {
+    #header-img {
+      max-width: 100%;
+    }
+  
+    article img {
+      max-width: 100%;
+    }
+
+  }
